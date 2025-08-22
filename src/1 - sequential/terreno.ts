@@ -1,4 +1,6 @@
-import promptSync from 'prompt-sync'
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
+
 const larg = Number(prompt("Digite a largura do terreno:"))
 const comp = Number(prompt("Digite o comprimento do terreno:"))
 const vlm2 = Number(prompt("Digite o valor do metro quadrado:"))
